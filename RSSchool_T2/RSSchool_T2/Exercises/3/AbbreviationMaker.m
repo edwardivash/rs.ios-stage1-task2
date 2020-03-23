@@ -3,6 +3,9 @@
 @implementation AbbreviationMaker
 // Complete the abbreviation function below.
 - (NSString *) abbreviationFromA:(NSString *)a toB:(NSString *)b {
-    return @"Test";
+    
+
+    return @"";
 }
+
 @end
