@@ -13,7 +13,8 @@
     [components setMonth:[month intValue]];
     [components setYear:[year intValue]];
     
-    NSCalendar *gregorianCalendar = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSCalendar *gregorianCalendar= [[NSCalendar alloc]initWithCalendarIdentifier:
+    NSCalendarIdentifierGregorian];
     NSDate *date = [gregorianCalendar dateFromComponents:components];
 
     if ([components isValidDateInCalendar:gregorianCalendar]) {
@@ -23,4 +24,5 @@
         return @"Такого дня не существует";
     }
 }
+
 @end

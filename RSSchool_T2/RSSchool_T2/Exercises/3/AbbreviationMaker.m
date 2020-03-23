@@ -14,9 +14,7 @@
             }
         }
     }
-    
     return [result isEqualToString:b] ? @"YES":@"NO";
-    
 }
 
 @end
